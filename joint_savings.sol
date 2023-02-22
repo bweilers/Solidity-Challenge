@@ -18,7 +18,7 @@ contract JointSavings {
         if (lastToWithdraw != recipient) {
             lastToWithdraw = recipient;
         }
-        // executes the transef
+        // executes the transfer
         recipient.transfer(amount);        
         // resets the lastWithdrawAmount variable
         lastWithdrawAmount = amount;
@@ -30,11 +30,20 @@ contract JointSavings {
         contractBalance = address(this).balance;
     }
 
+    // Confirm, is this the only setter functionality we need?
     function setAccounts (address payable account1, address payable account2) public {
         accountOne = account1;
         accountTwo = account2;
     }
 
+    // Office hours question, not sure if I need this getter function
+    function getInfo() view public returns(address, uint, uint) {
+    return (lastToWithdraw, lastWithdrawAmount, contractBalance);
+    }
+
     function () external payable {
   }
 }
+
+
+// Address where the contract is deployed: 0x7338b01BCD6A3563B591F913fb84f8037b18D8A3
