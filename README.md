@@ -9,18 +9,7 @@ The central solidity file is `joint_savings.sol`. To run the file
 4. Deploy
 
 ### Code and Dependencies
-This code is to be run on `Python 3.7.13`
 Requires the download and install of Ganache
-
-The following Python Libraries were also imported and used:
-
-- streamlit
-- dataclasses 
-- typing 
-- os
-- requests
-- dotenv 
-- web3 
 
 ## Objectives
 - Create a Joint Savings Account Contract in Solidity
