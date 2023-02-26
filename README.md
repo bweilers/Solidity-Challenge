@@ -37,13 +37,13 @@ Here I deposited 5 Eth.
 [Repo Link](https://github.com/bweilers/Solidity/) <br>
 ![Repo Image](./Execution_Results/2c.png)
 
-Lastly, I tested the withdrawl functionality. 
+Lastly, I tested the withdraw functionality. 
 
-Here I withrdrew 5 Eth to accountOne
+Here I withdrew 5 Eth to accountOne
 [Repo Link](https://github.com/bweilers/Solidity/) <br>
 ![Repo Image](./Execution_Results/3a.png)
 
-Here I withrdrew 10 Eth to accountTwo
+Here I withdrew 10 Eth to accountTwo
 [Repo Link](https://github.com/bweilers/Solidity/) <br>
 ![Repo Image](./Execution_Results/3b.png)
 
