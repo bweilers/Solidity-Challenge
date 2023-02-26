@@ -17,7 +17,7 @@ Requires the download and install of Ganache
 - Interact with Your Deployed Smart Contract
 
 ## Results and Data Story
-The result was a successfully deployed smart contract.
+The result was a successfully deployed smart contract. Please note that the mnemonic contained in the screenshots is for the Ganache test-net and not tied to a wallet with any real value.
 
 Here is an image of the contract. On the left is the contract deployed in Remix. On the right is Ganache test net instance and the address information that will be used for the joint accounts. As you can see the first two address were used for AccountOne and AccountTwo.
 [Repo Link](https://github.com/bweilers/Solidity/) <br>
